@@ -60,7 +60,7 @@ $stripe-properties: to bottom, 15%, blue, white;
     border: 1px solid black;
     display: inline-block;
     margin: 20px;
-    font-family: Roboto, sans-serif;
+    font-family: Helvetica, sans-serif, sans-serif;
     box-shadow: 1px 1px 2px 2px rgba(0,0,0,.2);
     @include transform-style(preserve-3d);
     @include transition(0.4s);
@@ -84,7 +84,7 @@ $stripe-properties: to bottom, 15%, blue, white;
             text-align: center;
             position: relative;
             top: 40%;
-            @include hover-color(red);
+            @include hover-color(blue);
         }    
     }
     

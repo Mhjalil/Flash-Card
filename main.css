@@ -4,7 +4,7 @@
   border: 1px solid black;
   display: inline-block;
   margin: 20px;
-  font-family: Roboto, sans-serif;
+  font-family: Helvetica, sans-serif, sans-serif;
   box-shadow: 1px 1px 2px 2px rgba(0, 0, 0, 0.2);
   transform-style: preserve-3d;
   -moz-transform-style: preserve-3d;
@@ -49,7 +49,7 @@
 }
 
 .notecard .front .word:hover {
-  color: red;
+  color: blue;
 }
 
 .notecard .back {
